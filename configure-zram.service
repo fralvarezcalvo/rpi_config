@@ -1,0 +1,9 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/opt/scripts/enable-zram.sh
+
+[Install]
+WantedBy=default.target
+
